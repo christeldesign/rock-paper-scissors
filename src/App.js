@@ -81,7 +81,7 @@ class App extends Component {
         <button onClick={() => this.randomComputerChoice('paper')}>Paper</button>
         <button onClick={() => this.randomComputerChoice('scissors')}>Scissors</button>
 
-        <button onClick={ this.reset }>Reset</button>
+        <button onClick={ this.reset }>Reset Game</button>
       </div>
     );
   }
